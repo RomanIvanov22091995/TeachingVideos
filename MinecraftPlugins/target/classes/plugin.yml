@@ -1,0 +1,8 @@
+name: MinecraftPlugins
+version: '1.0'
+main: mi.firstplugins.minecraftplugins.MinecraftPlugins
+api-version: 1.19
+load: STARTUP
+authors: [Roman Ivanov]
+
+description: My first spigot plugin

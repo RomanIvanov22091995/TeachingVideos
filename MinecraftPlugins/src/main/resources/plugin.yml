@@ -1,0 +1,15 @@
+name: MinecraftPlugins
+version: '${project.version}'
+main: mi.firstplugins.minecraftplugins.MinecraftPlugins
+api-version: 1.19
+load: STARTUP
+authors: [Roman Ivanov]
+
+description: My first spigot plug
+
+commands:
+  calculator:
+    description: Считает два числа с произвольным знаком вычислений
+    aliases:
+      -calc
+    usage: /calculate <num1> <+|-|/|*> <num2>
